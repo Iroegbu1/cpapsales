@@ -1,0 +1,29 @@
+
+/* #conversations-wrap */
+
+.conversations-wrap-closed{
+    top: 40% !important;
+
+}
+
+.conversations-wrap-open{
+    top: 0% !important;
+}
+
+
+/* Align to touch the right "wall"  */
+
+#conversations-app{
+    right: 0 !important;
+}
+
+/* Hide widget icon  */
+.widget_icon {
+    display: none !important;
+}
+
+/* Increase height of iframe widget container  */
+#conversations-wrap.conversations-wrap-closed {
+    height: 220px !important;
+    width: 100px !important;
+}
