@@ -1,5 +1,21 @@
-/* Hide artibot widget */
+/* Hide artibot widget and AC chat icon */
 
 #artibot-wrapper--3PaNf {
-    display: none;
+    display: none !important;
 }
+
+iframe > button.widget_icon_container {
+    display: none !important;
+}
+
+/* Rotate display message -90 degrees   */
+
+iframe > .widget_welcome_message_content {
+    transform: rotate(-90deg) !important;
+}
+
+/* Write CSS hide to a ".widget_welcome_message_content" class inside an iframe element */
+
+
+
+
